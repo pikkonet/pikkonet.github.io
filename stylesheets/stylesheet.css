@@ -477,3 +477,10 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+
+#test{
+  width: 100px;
+  height: 20px;
+  background: #000;
+}

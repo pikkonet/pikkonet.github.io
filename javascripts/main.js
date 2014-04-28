@@ -1,1 +1,6 @@
-console.log('This would be the main JS file.');
+
+$(document).ready(function() { 	 
+	$('#test').click(function() {
+	  window.location = "he/home.html";
+	});
+});
