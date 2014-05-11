@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url(./fonts/arimo/stylesheet.css);
 
 /*
 	Twenty 1.0 by HTML5 UP
@@ -29,7 +29,7 @@
 
 	body, input, select, textarea {
 		color: #7c8081;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Arimo', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -492,7 +492,7 @@
 		border: solid 1px;
 		color: inherit;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 1.2em;
 		font-weight: 900;
 		letter-spacing: 2px;
 		min-width: 18em;
@@ -1035,3 +1035,11 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+
+/*-----------[extra]-----------*/
+#logo b,
+#banner .inner h2 b {
+	color: #83d3c9;
+	font-weight: bold;
+}
