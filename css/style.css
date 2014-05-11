@@ -1043,3 +1043,8 @@
 	color: #83d3c9;
 	font-weight: bold;
 }
+#logo a {
+	border-top: 3px double;
+	border-bottom: 3px double;
+	padding: 3px 0;
+}
