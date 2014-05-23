@@ -451,7 +451,7 @@
 	/* Box */
 
 		.box {
-			background: #fff;
+			background: #E7E7E7;
 			color: #39454b;
 			padding: 2em;
 		}
@@ -565,7 +565,7 @@
 					}
 
 				.main.style3.primary {
-					background: #fff;
+					background: #E2DFDF;
 				}
 			
 				.main.style3.secondary {
@@ -1030,7 +1030,7 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255,255,255,0.95);
+		background: rgba(145, 145, 145, 0.95);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0,0,0,0.1);
@@ -1080,6 +1080,7 @@
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 					letter-spacing: -1px;
+					color: #E5ECD9;
 				}
 
 /*********************************************************************************/
@@ -1438,11 +1439,15 @@ footer{
 	font-size: 23px;
 	line-height: 25px;
 	margin-bottom: 12px;
+	direction: rtl;
 }
 .main_color {
 	color: rgb(178, 213, 38);
 }
 .logo_color, 
 #intro .logo_color {
-	color: #252525;
+	color: #E5ECD9;
+}
+.main.style2.right .content h2 {
+direction: rtl;
 }
