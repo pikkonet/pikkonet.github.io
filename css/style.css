@@ -402,14 +402,13 @@
 		}
 
 			.button.down {
-				width: 5em;
-				height: 5em;
+				width: 17em;
 				line-height: 4.5em;
 				padding: 0;
 				background-image: url('images/dark-arrow.svg');
 				background-position: center center;
 				background-repeat: no-repeat;
-				text-indent: -10em;
+				text-indent: -40em;
 				overflow: hidden;
 			}
 			
