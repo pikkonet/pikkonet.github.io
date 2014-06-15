@@ -1,0 +1,42 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Signed-off-by: eladamrani <eladamrani@gmail.com>
+
+Conflicts:
+	index.html
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 6 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	new file:   checkin.html
+#	new file:   checkin/Learn_About_Wufoo.html
+#	new file:   checkin/README.txt
+#	new file:   checkin/css/form.css
+#	new file:   checkin/css/structure.css
+#	new file:   checkin/css/theme.css
+#	new file:   checkin/images/calendar.png
+#	new file:   checkin/images/fieldbg.gif
+#	new file:   checkin/images/iepngfix.htc
+#	new file:   checkin/images/powerlogo.png
+#	new file:   checkin/images/wflogo.png
+#	new file:   checkin/index.html
+#	new file:   checkin/scripts/wufoo.js
+#	modified:   first_homepage/css/style.css
+#	modified:   index.html
+#
+

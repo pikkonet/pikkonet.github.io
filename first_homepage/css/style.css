@@ -8,6 +8,7 @@
 
 	body {
 		background: #fff;
+		direction: rtl;
 	}
 
 		body.loading {
@@ -28,6 +29,7 @@
 		line-height: 1.75em;
 		color: #39454b;
 		letter-spacing: 0.5px;
+		direction: rtl;
 	}
 
 	h1,h2,h3,h4,h5,h6 {
@@ -262,6 +264,7 @@
 				display: block;
 			}
 		
+			form input[type="email"],
 			form input[type="text"],
 			form input[type="password"],
 			form select,
@@ -288,12 +291,14 @@
 				transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
 			}
 
+				form input[type="email"]:hover,
 				form input[type="text"]:hover,
 				form input[type="password"]:hover,
 				form select:hover,
 				form textarea:hover {
 				}
 
+				form input[type="email"]:focus,
 				form input[type="text"]:focus,
 				form input[type="password"]:focus,
 				form select:focus,
@@ -301,6 +306,7 @@
 					border-color: #9ac8e9;
 				}
 
+			form input[type="email"],
 			form input[type="text"],
 			form input[type="password"],
 			form select {
@@ -1449,5 +1455,30 @@ footer{
 	color: #E5ECD9;
 }
 .main.style2.right .content h2 {
-direction: rtl;
+	direction: rtl;
+}
+
+
+
+/*extra wofoo form*/
+li#foli4, li#foli2 {
+	display: inline-block;
+	width: 49%;
+	float: left;
+	margin-bottom: 15px;
+}
+form label {
+	display: none;
+}
+li#foli4 {
+	float: right;
+}
+input, form textarea {
+	text-align: right;
+}
+li.hide {
+	display: none;
+}
+input#saveForm {
+	margin: 30px 0 0 0;
 }
