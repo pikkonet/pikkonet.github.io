@@ -99,8 +99,36 @@ p.strengths_p {
 	font-size: 15px;
 	line-height: 20px
 }
+.our_works div.item img {
+	height: 211px;
+	width: auto;
+}
+div.right_div {
+	width: 69%;
+	display: inline-block;
+	vertical-align: top;
+}
+div.left_div {
+	display: inline-block;
+}
+div.right_div h2 {
+	text-align: right;
+	font-size: 18px;
+	line-height: 30px;
+}
+div.right_div p {
+	font-size: 15px;
+	line-height: 20px;
+	color: #252525;
+	text-align: right;
+	margin-bottom: 30px;
+}
+#fourth-block {
+	padding: 2.5em 0;
+	background: #e1e1e1;
+}
+
 /* ------[colors]------ */
 .main_color {
 	color: #24b1a0;
-
 }
