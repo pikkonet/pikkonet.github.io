@@ -1,0 +1,106 @@
+#first-block, #second-block, #third-block, #fourth-block {
+text-align:center;
+padding:3.5em 0;
+}
+#carousel {
+text-align:center;
+background:#e5e5e5;
+}
+#first-block {
+background:#fff;
+}
+#second-block {
+background:#e5e5e5;
+}
+#third-block {
+background:#fff;
+}
+#fourth-block {
+background:#e5e5e5;
+}
+footer {
+background:#fff;
+padding:3.5em 0;
+}
+@media screen and (max-width: 800px) {
+  .right {
+  float:none;
+  }
+}
+
+
+
+
+
+
+/* ------[Our Code]------ */
+.pikkonet_logo {
+	margin-top: 21px;
+}
+.header_nav {
+	border-bottom: 1px solid #ccc;
+	background: #252525;
+}
+.top_bar {
+	margin-top: 28px;
+	height: 86px;
+}
+.top-nav ul {
+	height: 100%;
+	border-top: 1px solid #30b4a6;
+}
+.top-nav li {
+	height: 100%;
+	position: relative;
+}
+.top_bar ul.right li a {
+	padding-top: 31px;
+}
+.top-nav li a:hover, .aside-nav li a:hover {
+	background: none;
+	color: #24b1a0;
+}
+.top-nav li:hover:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	right: 40%;
+	border: 10px solid rgba(255, 255, 255, 0);
+	border-top: 10px solid #24b1a0;
+}
+/*#first-block, #second-block, #third-block, #fourth-block {
+	padding: 40px 0 130px 0;
+}*/
+
+h3.why_pikkonet {
+	position: relative;
+	top: 19px;
+	background: #fff;
+	width: 290px;
+	margin: 0 auto;
+	color: #2db4a2;
+	font-size: 30px;
+}
+h6.anwers {
+	border-top: 1px solid #e1e1e1;
+	padding: 37px 0;
+	font-size: 20px;
+	line-height: 30px;
+}
+img.strengths {
+	height: 107px;
+	width: 137px;
+}
+.strengths h2 {
+	font-size: 25px;
+	line-height: 30px
+}
+p.strengths_p {
+	font-size: 15px;
+	line-height: 20px
+}
+/* ------[colors]------ */
+.main_color {
+	color: #24b1a0;
+
+}
