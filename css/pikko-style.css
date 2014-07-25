@@ -1,3 +1,8 @@
+body {
+	font-family: "Open Sans Hebrew",Arial,Helvetica,sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
 #first-block, #second-block, #third-block, #fourth-block {
 text-align:center;
 padding:3.5em 0;
