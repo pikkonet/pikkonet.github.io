@@ -237,9 +237,8 @@ div.text_process p {
 	height: 100%;
 }
 #social-block .line div {
-	width: 34%;
+	width: 380px;
 	margin: 0 auto;
-	text-align: center;
 }
 #social-block .line div a {
 	display: block;
@@ -250,6 +249,7 @@ div.text_process p {
 	-moz-border-radius: 90px;
 	border-radius: 90px;
 	margin: 0 12px;
+	text-align: center;
 }
 #social-block .line div a i {
 	font-size: 55px;
