@@ -230,6 +230,21 @@ div.text_process a {
 #second-block .where_to_start .bg_image:hover h3 {
 		color: #fff;
 }
+#second-block .where_to_start .bg_image span {
+	width: 60px;
+	height: 60px;
+	background: #5abfb2;
+	display: block;
+	margin: 0 auto;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	font-size: 35px;
+	line-height: 58px;
+}
+#second-block .where_to_start .bg_image:hover span {
+	background: #d9cc3c;
+}
 div.wrap_image {
 	position: relative;
 	width: 94%;
