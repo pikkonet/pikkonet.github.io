@@ -248,6 +248,11 @@ div.text_process p {
 }
 #social-block .line div:hover a {
 	background: #707070;
+	-webkit-transition: background 0.2s;                  
+    -moz-transition: background 0.2s;                 
+    -o-transition: background 0.2s;   
+    -ms-transition: background 0.2s;
+    transition: background 0.2s;
 }
 #social-block .line div a i {
 	font-size: 55px;
@@ -256,14 +261,29 @@ div.text_process p {
 #social-block .line div:hover a.pos_0:hover,
 #social-block .line a.pos_0 {
 	background: #365f9f;
+	-webkit-transition: background 0.2s;                  
+    -moz-transition: background 0.2s;                 
+    -o-transition: background 0.2s;   
+    -ms-transition: background 0.2s;
+    transition: background 0.2s;
 }
 #social-block .line div:hover a.pos_1:hover,
 #social-block .line a.pos_1 {
 	background: #2aa9df;
+	-webkit-transition: background 0.2s;                  
+    -moz-transition: background 0.2s;                 
+    -o-transition: background 0.2s;   
+    -ms-transition: background 0.2s;
+    transition: background 0.2s;
 }
 #social-block .line div:hover a.pos_2:hover,
 #social-block .line a.pos_2 {
 	background: #db5342;
+	-webkit-transition: background 0.2s;                  
+    -moz-transition: background 0.2s;                 
+    -o-transition: background 0.2s;   
+    -ms-transition: background 0.2s;
+    transition: background 0.2s;
 }
 #social-block h3 {
 	font-size: 30px;
