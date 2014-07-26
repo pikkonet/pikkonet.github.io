@@ -1,15 +1,17 @@
 body {
 	font-family: "Open Sans Hebrew",Arial,Helvetica,sans-serif;
 	-webkit-font-smoothing: antialiased;
+	direction: rtl;
 }
 
-#first-block, #second-block, #third-block, #fourth-block {
+#first-block, #second-block, #third-block, #fourth-block, #contact-block {
 text-align:center;
 padding:3.5em 0;
 }
 #carousel {
-text-align:center;
-background:#e5e5e5;
+	text-align:center;
+	background:#e5e5e5;
+	direction: ltr;
 }
 #first-block {
 background:#fff;
@@ -21,7 +23,8 @@ background:#fff;
 background:#fff;
 }
 #fourth-block {
-background:#e5e5e5;
+	background:#e5e5e5;
+	direction: ltr;
 }
 footer {
 background:#fff;
@@ -210,6 +213,39 @@ div.text_process p {
 	width: 70%;
 	margin: 0 auto;
 }
+
+/* contact_block */
+#contact-block {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.65);
+	padding: 40px 0;
+}
+#contact-block h2 b {
+	color: #FFF;
+}
+#contact-block h2 {
+	font-size: 50px;
+	line-height: 50px;
+	color: #2DB4A2;
+}
+#contact-block p.contact_desc {
+	color: #FFF;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 30px;
+	width: auto;
+	max-width: 824px;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.contact_heading {
+	color: #2DB4A2;
+	font-size: 30px;
+	line-height: 50px;
+}
+/* end contact_block */
+
 /* ------[colors]------ */
 .main_color {
 	color: #24b1a0;
