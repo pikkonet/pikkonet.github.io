@@ -3,7 +3,7 @@ body {
 	font-family: "Open Sans Hebrew",Arial,Helvetica,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	direction: rtl;
-	background: url(img/body_bg.jpg) fixed no-repeat center 0;
+	background: url(../img/body_bg.jpg) fixed no-repeat center 0;
 }
 
 #first-block, #second-block, #third-block, #fourth-block, #contact-block {
