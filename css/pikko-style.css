@@ -230,10 +230,14 @@ div.text_process p {
 	margin: 0 auto;
 }
 #social-block {
-	background: rgba(0, 0, 0, 0.25);
+	background: rgba(217, 204, 60, 0.35);
+	height: 315px;
+}
+#social-block .line {
+	height: 100%;
 }
 #social-block .line div {
-	width: 30%;
+	width: 34%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -245,6 +249,11 @@ div.text_process p {
 	-webkit-border-radius: 90px;
 	-moz-border-radius: 90px;
 	border-radius: 90px;
+	margin: 0 12px;
+}
+#social-block .line div a i {
+	font-size: 55px;
+	line-height: 100px;
 }
 #social-block .line div a.pos_0 {
 	background: #365f9f;
@@ -254,6 +263,12 @@ div.text_process p {
 }
 #social-block .line div a.pos_2 {
 	background: #db5342;
+}
+#social-block h3 {
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+	padding: 20px 0 50px;
 }
 /* contact_block */
 #contact-block {
