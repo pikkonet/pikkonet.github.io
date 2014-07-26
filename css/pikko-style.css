@@ -274,10 +274,10 @@ div.text_process p {
 	display: inline-block;
 	width: 305px;
 	height: 60px;
-	margin: 0;
 	padding: 0;
 	float: none;
 	min-height: 0;
+	margin: 30px 10px 45px;
 }
 #mc_embed_signup .mc-field-group input {
 	height: 100%;
@@ -285,6 +285,8 @@ div.text_process p {
 	color: #252525;
 	font-size: 20px;
 	line-height: 60px;
+	border: none;
+	background: rgba(255, 255, 255, 0.75);
 }
 #mc_embed_signup .mc-field-group input::-webkit-input-placeholder { /* WebKit browsers */
     color:    #252525;
@@ -297,6 +299,29 @@ div.text_process p {
 }
 #mc_embed_signup .mc-field-group input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #252525;
+}
+#mc_embed_signup .button {
+	width: 485px;
+	height: 65px;
+	background: #2DB4A2;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	line-height: 65px;
+	font-weight: normal;
+	font-size: 30px;
+}
+#mc_embed_signup .button,
+#mc_embed_signup .button:hover {
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
+}
+#mc_embed_signup .button:after {
+	font-family: FontAwesome;
+	content: "\f053";
 }
 /* end mailchimp form */
 
