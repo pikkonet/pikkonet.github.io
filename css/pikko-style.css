@@ -25,6 +25,9 @@ textarea,
 	background:#e5e5e5;
 	direction: ltr;
 }
+#carousel img {
+	width: 100%;
+}
 #first-block {
 	background:#fff;
 }
