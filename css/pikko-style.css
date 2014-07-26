@@ -386,6 +386,10 @@ div.text_process p {
 	     -o-transition: all .25s ease;
 	        transition: all .25s ease;
 }
+input#mc-embedded-subscribe:focus {
+	border: none;
+	outline: none;
+}
 /* end mailchimp form */
 
 /* ------[colors]------ */
