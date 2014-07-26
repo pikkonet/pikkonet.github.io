@@ -1,7 +1,12 @@
 body {
+	display: none;
 	font-family: "Open Sans Hebrew",Arial,Helvetica,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	direction: rtl;
+
+
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 }
 
 #first-block, #second-block, #third-block, #fourth-block, #contact-block {
@@ -35,9 +40,6 @@ padding:3.5em 0;
   float:none;
   }
 }
-
-
-
 
 
 
@@ -210,6 +212,7 @@ div.wrap_image {
 	position: relative;
 	width: 93%;
 	margin: 0 auto;
+	max-width: 311px;
 }
 div.text_process p {
 	width: 80%;

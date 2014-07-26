@@ -1,6 +1,6 @@
 
 jQuery(document).ready(function() {
 
-  $('body').css('display','none').fadeIn(2000);
-  
+  $('body').fadeIn(2000).css("background-image", "url(../img/body_bg.jpg)");
+ 
 });
