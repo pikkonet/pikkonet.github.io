@@ -239,10 +239,11 @@ div.text_process p {
 #social-block .line {
 	height: 100%;
 }
-#social-block .line div {
+#social-block .line div.social_links {
 	max-width: 382px;
 	margin: 0 auto;
 	width: auto;
+	text-align: center;
 }
 #social-block .line div a {
 	display: inline-block;
