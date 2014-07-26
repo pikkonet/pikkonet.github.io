@@ -428,6 +428,11 @@ footer .line .s-12.l-6 p {
 	height: 35px;
 	vertical-align: middle;
 }
+footer .line .s-12.l-6 p img {
+	margin: 0 12px;
+	position: relative;
+	top: 12px;
+}
 /*END FOOTER*/
 
 /* ------[colors]------ */
