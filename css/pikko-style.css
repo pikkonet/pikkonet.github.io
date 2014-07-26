@@ -228,7 +228,12 @@ div.text_process a {
     transition: color 2s, border 2s; 
 }
 #second-block .where_to_start .bg_image:hover h3 {
-		color: #fff;
+	color: #fff;
+	-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
 }
 #second-block .where_to_start .bg_image span {
 	width: 60px;
@@ -241,9 +246,19 @@ div.text_process a {
 	border-radius: 90px;
 	font-size: 35px;
 	line-height: 58px;
+	-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
 }
 #second-block .where_to_start .bg_image:hover span {
 	background: #d9cc3c;
+	-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
 }
 div.wrap_image {
 	position: relative;
