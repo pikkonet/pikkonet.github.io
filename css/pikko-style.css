@@ -324,6 +324,7 @@ div.text_process p {
 	color: #2DB4A2;
 	font-size: 30px;
 	line-height: 50px;
+	margin-bottom: 30px;
 }
 /* end contact_block */
 
@@ -346,7 +347,7 @@ div.text_process p {
 	padding: 0;
 	float: none;
 	min-height: 0;
-	margin: 30px 10px 45px;
+	margin: 10px;
 }
 #mc_embed_signup .mc-field-group input {
 	height: 100%;
@@ -373,7 +374,7 @@ div.text_process p {
 	max-width: 485px;
 	width: auto;
 	height: 65px;
-	margin: 10px auto;
+	margin: 45px auto 10px;
 	position: relative;
 }
 #mc_embed_signup .button_wrapper:after {
