@@ -253,13 +253,16 @@ div.text_process p {
 	font-size: 55px;
 	line-height: 100px;
 }
-#social-block .line div:hover a.pos_0:hover {
+#social-block .line div:hover a.pos_0:hover,
+#social-block .line div a.pos_0 {
 	background: #365f9f;
 }
-#social-block .line div:hover a.pos_1:hover {
+#social-block .line div:hover a.pos_1:hover,
+#social-block .line div a.pos_1 {
 	background: #2aa9df;
 }
-#social-block .line div:hover a.pos_2:hover {
+#social-block .line div:hover a.pos_2:hover,
+#social-block .line div a.pos_2 {
 	background: #db5342;
 }
 #social-block h3 {
