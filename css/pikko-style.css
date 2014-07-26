@@ -220,6 +220,9 @@ div.wrap_image {
 	margin: 0 auto;
 	max-width: 311px;
 }
+div.wrap_image img {
+	width: 100%;
+}
 div.text_process p {
 	width: 80%;
 	margin: 0 auto;
