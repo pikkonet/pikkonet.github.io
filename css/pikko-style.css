@@ -304,17 +304,34 @@ div.text_process p {
 	width: 485px;
 	height: 65px;
 	margin: 0 auto;
+	position: relative;
 }
 #mc_embed_signup .button_wrapper:after {
 	font-family: FontAwesome;
 	content: "\f053";
+	color: #FFF;
+	font-size: 22px;
+	width: 43px;
+	height: 43px;
+	border: 1px solid #FFF;
+	display: inline-block;
+	line-height: 43px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	position: absolute;
+	top: 12px;
+	left: 104px;
 }
 #mc_embed_signup .button {
 	width: 100%;
 	height: 100%;
 	background: #2DB4A2;
 	margin: 0;
-	padding: 0;
+	padding: 0px 0px 0px 43px;
 	border-radius: 0;
 	line-height: 65px;
 	font-weight: normal;
