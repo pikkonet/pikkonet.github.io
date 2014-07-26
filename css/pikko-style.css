@@ -182,7 +182,7 @@ div.text_process {
     -ms-transition: height 0.5s, color 2s, background 0.5s;
     transition: height 0.5s, color 2s, background 0.5s;
 }
-#second-block .where_to_start .bg_image .wrap_image:hover .text_process {
+#second-block .where_to_start .bg_image:hover .text_process {
 	height: 100%;
 	color: #fff;
 	background: rgba(0, 0, 0, 0.65); 
