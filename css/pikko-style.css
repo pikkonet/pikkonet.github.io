@@ -93,10 +93,11 @@ h3.why_pikkonet,
 	position: relative;
 	top: 19px;
 	background: #fff;
-	width: 290px;
+	max-width: 290px;
 	margin: 0 auto;
 	color: #2db4a2;
 	font-size: 30px;
+	width: auto;
 }
 .anwers {
 	border-top: 1px solid #e1e1e1;
