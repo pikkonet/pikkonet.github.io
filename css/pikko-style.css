@@ -8,6 +8,7 @@ body {
 .body_bg {
 	position: fixed;
 	width: 100%;
+	z-index: -1;
 }
 
 #first-block, #second-block, #third-block, #fourth-block, #contact-block {
