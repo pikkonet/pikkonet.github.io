@@ -292,6 +292,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .top_bar ul.right li a {
   padding: 31px;
 }
+.top-nav li a:hover, .aside-nav li a:hover {
+  background: none;
+}
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
@@ -434,8 +437,10 @@ nav {
   line-height: 63px;
 }
 .top_bar ul.right li a {
-  padding: 0px;
+  padding: 0px 10px;
 }
+.top-nav li a:hover, .aside-nav li a:hover {
+  background: #252525;
 }
 .center {
   float:none;

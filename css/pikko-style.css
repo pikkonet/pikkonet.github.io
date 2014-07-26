@@ -69,7 +69,6 @@ textarea,
 	position: relative;
 }
 .top-nav li a:hover, .aside-nav li a:hover {
-	background: none;
 	color: #24b1a0;
 }
 .top-nav li:hover:before {
