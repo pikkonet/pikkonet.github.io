@@ -179,23 +179,23 @@ div.text_process {
 }
 div.text_process a {
 	display: inline-block;
-	font-size: 94px;
+	font-size: 80px;
 	color: rgba(255, 255, 255, 0);
 	border: 2px solid rgba(255, 255, 255, 0);
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	margin: 0 auto;
-	line-height: 94px;
+	line-height: 74px;
 	-webkit-border-radius: 90px;
 	-moz-border-radius: 90px;
 	border-radius: 90px;
-	margin: 54px 0 40px;
+	margin: 34px 0 27px;
 	font-weight: lighter;
-	-webkit-transition: color 2s, border 2s;                  
-    -moz-transition: color 2s, border 2s;               
-    -o-transition: color 2s, border 2s; 
-    -ms-transition: color 2s, border 2s; 
-    transition: color 2s, border 2s; 
+	-webkit-transition: color 2s, border 2s;
+	-moz-transition: color 2s, border 2s;
+	-o-transition: color 2s, border 2s;
+	-ms-transition: color 2s, border 2s;
+	transition: color 2s, border 2s;
 }
 #second-block .where_to_start .bg_image .wrap_image:hover .text_process a {
 	color: #fff;
@@ -208,12 +208,17 @@ div.text_process a {
 }
 div.wrap_image {
 	position: relative;
-}
-div.text_process p {
-	width: 70%;
+	width: 311px;
 	margin: 0 auto;
 }
-
+div.text_process p {
+	width: 80%;
+	margin: 0 auto;
+}
+#second-block .where_to_start .margin {
+	width: 90%;
+	margin: 0 auto;
+}
 /* contact_block */
 #contact-block {
 	text-align: center;

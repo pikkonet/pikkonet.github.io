@@ -278,9 +278,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .right {float:right;} 
 /* ------ our code ------ */
 #second-block .where_to_start .bg_image {
-  width: 32%;
+  width: 33%;
   padding: 0;
-  margin: 0 7px;
+  margin: 0;
 }
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
