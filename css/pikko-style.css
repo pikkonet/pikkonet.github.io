@@ -213,7 +213,7 @@ div.text_process a {
 }
 div.wrap_image {
 	position: relative;
-	width: 93%;
+	width: 94%;
 	margin: 0 auto;
 	max-width: 311px;
 }
@@ -233,8 +233,9 @@ div.text_process p {
 	height: 100%;
 }
 #social-block .line div {
-	width: 380px;
+	max-width: 382px;
 	margin: 0 auto;
+	width: auto;
 }
 #social-block .line div a {
 	display: inline-block;
