@@ -28,6 +28,9 @@ textarea,
 #carousel img {
 	width: 100%;
 }
+.owl-theme .owl-controls .owl-buttons div {
+	min-width: 50px;
+}
 #first-block {
 	background:#fff;
 }
