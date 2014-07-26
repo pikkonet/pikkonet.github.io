@@ -39,8 +39,8 @@ background:#fff;
 	direction: ltr;
 }
 footer {
-background:#fff;
-padding:3.5em 0;
+	background:#252525;
+	padding:3.5em 0;
 }
 @media screen and (max-width: 800px) {
   .right {
@@ -304,6 +304,9 @@ div.text_process p {
 /* end contact_block */
 
 /* mailchimp form */
+#contact-block .line {
+	padding: 0;
+}
 #mc_embed_signup{
 	clear:left;
 	font-size :14px;
