@@ -256,10 +256,6 @@ div.text_process p {
     -ms-transition: background 0.2s;
     transition: background 0.2s;
 }
-#social-block .line div a i {
-	font-size: 55px;
-	line-height: 100px;
-}
 #social-block .line div:hover a.pos_0:hover,
 #social-block .line a.pos_0 {
 	background: #365f9f;
