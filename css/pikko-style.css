@@ -432,12 +432,12 @@ footer .line .s-12.l-6 p {
 	height: 35px;
 	vertical-align: middle;
 }
-footer .line .s-12.l-6 p img {
+footer div.powerd_by p img {
 	margin: 0 12px;
 	position: relative;
 	top: 12px;
 }
-footer div.powerd_by{
+footer div.powerd_by {
 	float: none;
 	clear: both;
 	width: auto;
