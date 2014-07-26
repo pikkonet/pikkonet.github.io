@@ -242,8 +242,6 @@ div.text_process p {
 }
 #social-block .line div a {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
 	-webkit-border-radius: 90px;
 	-moz-border-radius: 90px;
 	border-radius: 90px;
