@@ -421,6 +421,7 @@ input#mc-embedded-subscribe:focus {
 footer {
 	background:#252525;
 	padding:3.5em 0;
+	position: relative;
 }
 footer .line .s-12.l-6 p {
 	color: #FFF;
@@ -432,6 +433,32 @@ footer .line .s-12.l-6 p img {
 	margin: 0 12px;
 	position: relative;
 	top: 12px;
+}
+footer div.s-12.l-6 {
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+}
+footer ul.s-12.l-6 {
+	padding: 0;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+footer ul.s-12.l-6 li {
+	list-style: none;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 26px;
+}
+footer ul.s-12.l-6:after {
+	content: "";
+	height: 0;
+	width: 121%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 25%;
 }
 /*END FOOTER*/
 
