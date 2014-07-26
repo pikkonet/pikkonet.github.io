@@ -9,8 +9,9 @@ text-align:center;
 padding:3.5em 0;
 }
 #carousel {
-text-align:center;
-background:#e5e5e5;
+	text-align:center;
+	background:#e5e5e5;
+	direction: ltr;
 }
 #first-block {
 background:#fff;
@@ -22,7 +23,8 @@ background:#fff;
 background:#fff;
 }
 #fourth-block {
-background:#e5e5e5;
+	background:#e5e5e5;
+	direction: ltr;
 }
 footer {
 background:#fff;
