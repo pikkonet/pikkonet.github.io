@@ -35,7 +35,7 @@ textarea,
 	background:#fff;
 }
 #second-block {
-	background:#fff;
+	background:#2db4a2;
 }
 #third-block {
 	background:#fff;
@@ -86,8 +86,7 @@ textarea,
 	padding: 40px 0 130px 0;
 }*/
 
-h3.why_pikkonet,
-.where_to_start h1 {
+h3.why_pikkonet {
 	position: relative;
 	top: 19px;
 	background: #fff;
@@ -97,11 +96,24 @@ h3.why_pikkonet,
 	font-size: 30px;
 	width: auto;
 }
+.where_to_start h1 {
+	position: relative;
+	top: 19px;
+	background: #2db4a2;
+	max-width: 290px;
+	margin: 0 auto;
+	color: #252525;
+	font-size: 30px;
+	width: auto;
+}
 .anwers {
 	border-top: 1px solid #e1e1e1;
 	padding: 37px 0;
 	font-size: 20px;
 	line-height: 30px;
+}
+#second-block .where_to_start .anwers {
+	color: #fff;
 }
 img.strengths {
 	height: 107px;
@@ -147,13 +159,13 @@ div.right_div p {
 	width: 100%;
 }
 div.text_process.pos_0 {
-		border-bottom: 10px solid #bf0049;
+		border-bottom: 10px solid #d9cc3c;
 }
 div.text_process.pos_1 {
 		border-bottom: 10px solid #d9cc3c;
 }
 div.text_process.pos_2 {
-		border-bottom: 10px solid #00ada7;
+		border-bottom: 10px solid #d9cc3c;
 }
 div.text_process {
 	position: absolute;
@@ -183,6 +195,11 @@ div.text_process {
 #second-block .where_to_start .bg_image h3 {
 	width: 100%;
 	margin-bottom: 30px;
+	font-size: 72px;
+	color: #252525;
+}
+#second-block .where_to_start .bg_image h3:hover {
+	color: #fff;
 }
 div.text_process a {
 	display: inline-block;
