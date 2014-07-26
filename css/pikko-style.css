@@ -198,9 +198,6 @@ div.text_process {
 	font-size: 72px;
 	color: #252525;
 }
-#second-block .where_to_start .bg_image h3:hover {
-	color: #fff;
-}
 div.text_process a {
 	display: inline-block;
 	font-size: 80px;
@@ -221,7 +218,7 @@ div.text_process a {
 	-ms-transition: color 2s, border 2s;
 	transition: color 2s, border 2s;
 }
-#second-block .where_to_start .bg_image .wrap_image:hover .text_process a {
+#second-block .where_to_start .bg_image:hover .text_process a {
 	color: #fff;
 	border: 2px solid #fff;
 	-webkit-transition: color 2s, border 2s;                  
@@ -229,6 +226,9 @@ div.text_process a {
     -o-transition: color 2s, border 2s; 
     -ms-transition: color 2s, border 2s; 
     transition: color 2s, border 2s; 
+}
+#second-block .where_to_start .bg_image:hover h3 {
+		color: #fff;
 }
 div.wrap_image {
 	position: relative;
