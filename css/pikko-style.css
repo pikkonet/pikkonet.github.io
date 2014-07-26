@@ -5,6 +5,11 @@ body {
 	direction: rtl;
 	background: none;
 }
+input,
+textarea,
+* {
+	font-family: "Open Sans Hebrew",Arial,Helvetica,sans-serif;
+}
 .body_bg {
 	position: fixed;
 	width: 100%;
@@ -284,9 +289,87 @@ div.text_process p {
 
 /* mailchimp form */
 #mc_embed_signup{
-	background:#fff;
 	clear:left;
 	font-size :14px;
+}
+#mc_embed_signup form {
+	text-align: center;
+	padding: 0;
+}
+#mc_embed_signup .mc-field-group {
+	display: inline-block;
+	width: 305px;
+	height: 60px;
+	padding: 0;
+	float: none;
+	min-height: 0;
+	margin: 30px 10px 45px;
+}
+#mc_embed_signup .mc-field-group input {
+	height: 100%;
+	padding: 0;
+	color: #252525;
+	font-size: 20px;
+	line-height: 60px;
+	border: none;
+	background: rgba(255, 255, 255, 0.75);
+}
+#mc_embed_signup .mc-field-group input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #252525;
+}
+#mc_embed_signup .mc-field-group input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #252525;
+}
+#mc_embed_signup .mc-field-group input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #252525;
+}
+#mc_embed_signup .mc-field-group input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #252525;
+}
+#mc_embed_signup .button_wrapper {
+	width: 485px;
+	height: 65px;
+	margin: 0 auto;
+	position: relative;
+}
+#mc_embed_signup .button_wrapper:after {
+	font-family: FontAwesome;
+	content: "\f053";
+	color: #FFF;
+	font-size: 22px;
+	width: 43px;
+	height: 43px;
+	border: 1px solid #FFF;
+	display: inline-block;
+	line-height: 43px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	position: absolute;
+	top: 12px;
+	left: 104px;
+}
+#mc_embed_signup .button {
+	width: 100%;
+	height: 100%;
+	background: #2DB4A2;
+	margin: 0;
+	padding: 0px 0px 0px 43px;
+	border-radius: 0;
+	line-height: 65px;
+	font-weight: normal;
+	font-size: 30px;
+}
+#mc_embed_signup .button,
+#mc_embed_signup .button:hover {
+	-webkit-transition: all .25s ease;
+	   -moz-transition: all .25s ease;
+	    -ms-transition: all .25s ease;
+	     -o-transition: all .25s ease;
+	        transition: all .25s ease;
 }
 /* end mailchimp form */
 
