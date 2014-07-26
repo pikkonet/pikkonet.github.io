@@ -370,9 +370,10 @@ div.text_process p {
     color:    #252525;
 }
 #mc_embed_signup .button_wrapper {
-	width: 485px;
+	max-width: 485px;
+	width: auto;
 	height: 65px;
-	margin: 0 auto;
+	margin: 10px auto;
 	position: relative;
 }
 #mc_embed_signup .button_wrapper:after {
