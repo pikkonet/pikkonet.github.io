@@ -17,8 +17,8 @@ textarea,
 }
 
 #first-block, #second-block, #third-block, #fourth-block, #contact-block {
-text-align:center;
-padding:3.5em 0;
+	text-align:center;
+	padding:3.5em 0;
 }
 #carousel {
 	text-align:center;
@@ -26,21 +26,17 @@ padding:3.5em 0;
 	direction: ltr;
 }
 #first-block {
-background:#fff;
+	background:#fff;
 }
 #second-block {
-background:#fff;
+	background:#fff;
 }
 #third-block {
-background:#fff;
+	background:#fff;
 }
 #fourth-block {
 	background:#e5e5e5;
 	direction: ltr;
-}
-footer {
-	background:#252525;
-	padding:3.5em 0;
 }
 @media screen and (max-width: 800px) {
   .right {
@@ -395,6 +391,19 @@ input#mc-embedded-subscribe:focus {
 	outline: none;
 }
 /* end mailchimp form */
+
+/*FOOTER*/
+footer {
+	background:#252525;
+	padding:3.5em 0;
+}
+footer .line .s-12.l-6 p {
+	color: #FFF;
+	line-height: 35px;
+	height: 35px;
+	vertical-align: middle;
+}
+/*END FOOTER*/
 
 /* ------[colors]------ */
 .main_color {
