@@ -59,7 +59,7 @@ padding:3.5em 0;
 	position: relative;
 }
 .top_bar ul.right li a {
-	padding-top: 31px;
+	padding: 31px;
 }
 .top-nav li a:hover, .aside-nav li a:hover {
 	background: none;
@@ -136,10 +136,90 @@ div.right_div p {
 #second-block .where_to_start {
 	width: 100%;
 }
-#second-block .where_to_start .pos {
-	width: 33%;
+div.text_process.pos_0 {
+		border-bottom: 10px solid #bf0049;
+}
+div.text_process.pos_1 {
+		border-bottom: 10px solid #d9cc3c;
+}
+div.text_process.pos_2 {
+		border-bottom: 10px solid #00ada7;
+}
+div.text_process {
+	position: absolute;
+	top: 0;
+	height: 0;
+	width: 100%;
+	padding: 0 0.625em;
+	left: 0;
+	overflow: hidden;
+	color: rgba(255, 255, 255, 0);
+	-webkit-transition: height 0.5s, color 2s, background 0.5s;                  
+    -moz-transition: height 0.5s, color 2s, background 0.5s;                 
+    -o-transition: height 0.5s, color 2s, background 0.5s;   
+    -ms-transition: height 0.5s, color 2s, background 0.5s;
+    transition: height 0.5s, color 2s, background 0.5s;
+}
+#second-block .where_to_start .bg_image .wrap_image:hover .text_process {
+	height: 100%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.65); 
+	-webkit-transition: height 0.5s, color 2s, background 0.5s;                  
+    -moz-transition: height 0.5s, color 2s, background 0.5s;                 
+    -o-transition: height 0.5s, color 2s, background 0.5s;   
+    -ms-transition: height 0.5s, color 2s, background 0.5s;
+    transition: height 0.5s, color 2s, background 0.5s;
+}
+#second-block .where_to_start .bg_image h3 {
+	width: 100%;
+	margin-bottom: 30px;
+}
+div.text_process a {
+	display: inline-block;
+	font-size: 94px;
+	color: rgba(255, 255, 255, 0);
+	border: 2px solid rgba(255, 255, 255, 0);
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	line-height: 94px;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	margin: 54px 0 40px;
+	font-weight: lighter;
+	-webkit-transition: color 2s, border 2s;                  
+    -moz-transition: color 2s, border 2s;               
+    -o-transition: color 2s, border 2s; 
+    -ms-transition: color 2s, border 2s; 
+    transition: color 2s, border 2s; 
+}
+#second-block .where_to_start .bg_image .wrap_image:hover .text_process a {
+	color: #fff;
+	border: 2px solid #fff;
+	-webkit-transition: color 2s, border 2s;                  
+    -moz-transition: color 2s, border 2s;               
+    -o-transition: color 2s, border 2s; 
+    -ms-transition: color 2s, border 2s; 
+    transition: color 2s, border 2s; 
+}
+div.wrap_image {
+	position: relative;
+}
+div.text_process p {
+	width: 70%;
+	margin: 0 auto;
 }
 /* ------[colors]------ */
 .main_color {
 	color: #24b1a0;
+}
+h3.pos_0 {
+	color: #2db4a5;
+}
+h3.pos_1 {
+	color: #dacb3e;
+}
+h3.pos_2 {
+	color: #2db4a3;
 }
