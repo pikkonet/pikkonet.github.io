@@ -25,6 +25,9 @@ textarea,
 	background:#e5e5e5;
 	direction: ltr;
 }
+#carousel img {
+	width: 100%;
+}
 #first-block {
 	background:#fff;
 }
@@ -368,9 +371,10 @@ div.text_process p {
     color:    #252525;
 }
 #mc_embed_signup .button_wrapper {
-	width: 485px;
+	max-width: 485px;
+	width: auto;
 	height: 65px;
-	margin: 0 auto;
+	margin: 10px auto;
 	position: relative;
 }
 #mc_embed_signup .button_wrapper:after {
@@ -391,7 +395,7 @@ div.text_process p {
 	border-radius: 30px;
 	position: absolute;
 	top: 12px;
-	left: 104px;
+	left: 17%;
 }
 #mc_embed_signup .button {
 	width: 100%;
@@ -422,12 +426,44 @@ input#mc-embedded-subscribe:focus {
 footer {
 	background:#252525;
 	padding:3.5em 0;
+	position: relative;
 }
 footer .line .s-12.l-6 p {
 	color: #FFF;
 	line-height: 35px;
 	height: 35px;
 	vertical-align: middle;
+}
+footer .line .s-12.l-6 p img {
+	margin: 0 12px;
+	position: relative;
+	top: 12px;
+}
+/*footer div.s-12.l-6 {
+	position: absolute;
+	left: 0;
+	bottom: 15px;
+}*/
+footer ul.s-12.l-6 {
+	padding: 0;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+footer ul.s-12.l-6 li {
+	list-style: none;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 26px;
+}
+footer ul.s-12.l-6:after {
+	content: "";
+	height: 0;
+	width: 121%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 25%;
 }
 /*END FOOTER*/
 
