@@ -394,7 +394,7 @@ div.text_process p {
 	border-radius: 30px;
 	position: absolute;
 	top: 12px;
-	left: 104px;
+	left: 17%;
 }
 #mc_embed_signup .button {
 	width: 100%;
@@ -438,11 +438,11 @@ footer .line .s-12.l-6 p img {
 	position: relative;
 	top: 12px;
 }
-footer div.s-12.l-6 {
+/*footer div.s-12.l-6 {
 	position: absolute;
 	left: 0;
 	bottom: 15px;
-}
+}*/
 footer ul.s-12.l-6 {
 	padding: 0;
 	padding-bottom: 20px;
