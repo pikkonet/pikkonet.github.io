@@ -62,15 +62,11 @@ textarea,
 	height: 86px;
 }
 .top-nav ul {
-	height: 100%;
 	border-top: 1px solid #30b4a6;
 }
 .top-nav li {
 	height: 100%;
 	position: relative;
-}
-.top_bar ul.right li a {
-	padding: 31px;
 }
 .top-nav li a:hover, .aside-nav li a:hover {
 	background: none;

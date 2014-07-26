@@ -289,6 +289,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   font-size: 55px;
   line-height: 100px;
 }
+.top_bar ul.right li a {
+  padding: 31px;
+}
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
@@ -429,6 +432,9 @@ nav {
 #social-block .line div a i {
   font-size: 38px;
   line-height: 63px;
+}
+.top_bar ul.right li a {
+  padding: 0px;
 }
 }
 .center {
