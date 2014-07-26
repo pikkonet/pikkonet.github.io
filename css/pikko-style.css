@@ -290,6 +290,15 @@ div.text_process p {
 	padding: 40px 0 50px;
 	margin: 0;
 }
+#mc_embed_signup .mc-field-group input:focus {
+	background: #fff;
+	outline: none;
+	-webkit-transition: all .25s ease;
+   -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+     -o-transition: all .25s ease;
+        transition: all .25s ease;
+}
 /* contact_block */
 #contact-block {
 	text-align: center;
