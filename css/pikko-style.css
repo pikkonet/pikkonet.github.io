@@ -41,7 +41,7 @@ textarea,
 	background:#fff;
 }
 #fourth-block {
-	background:#e5e5e5;
+	background:url(../img/our_works_bg.png);
 	direction: ltr;
 }
 @media screen and (max-width: 800px) {
