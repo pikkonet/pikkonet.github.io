@@ -149,8 +149,19 @@ div.right_div p {
 	line-height: 20px;
 	color: #252525;
 	text-align: right;
-	margin-bottom: 30px;
+	margin: 10px 0;
 }
+i.fa.fa-quote-right,
+i.fa.fa-quote-left {
+	display: block;
+	text-align: right;
+	color: #2DB4A2;
+	font-size: 30px;
+}
+i.fa.fa-quote-left {
+	text-align: left;
+}
+
 #fourth-block {
 	padding: 2.5em 0;
 	background: #e1e1e1;
