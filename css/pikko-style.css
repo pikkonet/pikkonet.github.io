@@ -41,7 +41,6 @@ textarea,
 	background:#fff;
 }
 #fourth-block {
-	background:url(../img/our_works_bg.png);
 	direction: ltr;
 }
 @media screen and (max-width: 800px) {
@@ -164,7 +163,7 @@ i.fa.fa-quote-left {
 
 #fourth-block {
 	padding: 2.5em 0;
-	background: #e1e1e1;
+	background:url(../img/our_works_bg.png);
 }
 #second-block .where_to_start {
 	width: 100%;
