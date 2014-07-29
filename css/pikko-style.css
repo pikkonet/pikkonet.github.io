@@ -369,17 +369,6 @@ div.text_process p {
      -o-transition: all .25s ease;
         transition: all .25s ease;
 }
-div#carousel:after {
-	content: "";
-	position: absolute;
-	top: auto;
-	right: auto;
-	left: 0;
-	height: 425px;
-	width: 301px;
-	background: url(../img/t1.png);
-	bottom: -86px;
-}
 /* contact_block */
 #contact-block {
 	text-align: center;

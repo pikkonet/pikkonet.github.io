@@ -313,6 +313,17 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   width: 260px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
+div#carousel:after {
+  content: "";
+  position: absolute;
+  top: auto;
+  right: auto;
+  left: 0;
+  height: 425px;
+  width: 301px;
+  background: url(../img/t1.png);
+  bottom: -86px;
+}
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
@@ -452,6 +463,9 @@ nav {
 }
 #second-block .where_to_start .bg_image.pos_0:before,
 #second-block .where_to_start .bg_image.pos_1:before {
+  display: none;
+}
+div#carousel:after {
   display: none;
 }
 #social-block .line div a i {
