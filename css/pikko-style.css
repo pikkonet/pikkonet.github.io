@@ -371,11 +371,11 @@ div.text_process p {
 div#carousel:after {
 	content: "";
 	position: absolute;
-	top: 170px;
+	top: 359px;
 	right: auto;
 	left: 0;
-	height: 100px;
-	width: 100px;
+	height: 425px;
+	width: 301px;
 	background: url(../img/t1.png);
 }
 /* contact_block */
