@@ -572,7 +572,7 @@ header:before {
   content: "";
   position: absolute;
   top: 0;
-  right: 0;
+  right: -110px;
   width: 424px;
   height: 633px;
   background: url(../img/t2.png);
