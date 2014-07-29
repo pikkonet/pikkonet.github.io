@@ -82,7 +82,7 @@ textarea,
 	top: -5px;
 	right: 40%;
 	border: 10px solid rgba(255, 255, 255, 0);
-	border-top: 10px solid #24b1a0;
+	border-top: 14px solid #24b1a0;
 }
 /*#first-block, #second-block, #third-block, #fourth-block {
 	padding: 40px 0 130px 0;
@@ -117,6 +117,11 @@ h3.why_pikkonet {
 #second-block .where_to_start .anwers {
 	color: #fff;
 }
+#first-block div.margin .main_color {
+	font-size: 25px;
+	width: 80%;
+	margin: 0 auto 5px;
+}
 img.strengths {
 	height: 107px;
 	width: 137px;
@@ -127,7 +132,8 @@ img.strengths {
 }
 p.strengths_p {
 	font-size: 15px;
-	line-height: 20px
+	line-height: 20px;
+	padding: 0 20px;
 }
 .our_works div.item img {
 	height: 211px;
