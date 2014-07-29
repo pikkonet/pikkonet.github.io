@@ -578,7 +578,7 @@ header:before {
   background: url(../img/t2.png);
   z-index: 1;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1279px) {
 
 	header:before {
 	  display: none;
