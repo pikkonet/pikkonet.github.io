@@ -324,16 +324,6 @@ div#carousel:after {
   background: url(../img/t1.png);
   bottom: -86px;
 }
-header:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 476px;
-  height: 638px;
-  background: url(../img/t2.png);
-  z-index: 1;
-}
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
@@ -475,8 +465,7 @@ nav {
 #second-block .where_to_start .bg_image.pos_1:before {
   display: none;
 }
-div#carousel:after,
-header:before {
+div#carousel:after {
   display: none;
 }
 #social-block .line div a i {

@@ -568,10 +568,19 @@ h3.pos_2 {
 	color: #2db4a3;
 }
 
-
+header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 424px;
+  height: 633px;
+  background: url(../img/t2.png);
+  z-index: 1;
+}
 @media screen and (max-width:1200px) {
 
-	.top_bar {
-		display: none;
+	header:before {
+	  display: none;
 	}
 }
