@@ -636,19 +636,30 @@ header:before {
 }
 .dictionary article {
 	background: #9A9A9A;
+	padding: 40px 0;
 }
 article .data {
 	width: auto;
 	margin: 0 auto;
 	max-width: 960px;
-	padding-right: 50px;
+	position: relative;
+	padding: 10px 50px 10px 0;
+	border-right: 2px solid #000;
+}
+article .data:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 28px;
+	right: 0;
+	border: 10px solid rgba(0, 0, 0, 0);
+	border-right: 22px solid #000;
 }
 article .data h5 {
 	margin: 0;
 	color: #D9CC3C;
 	font-size: 25px;
 	line-height: 50px;
-	padding-top: 20px;
 }
 article .data p {
 	color: #000;
