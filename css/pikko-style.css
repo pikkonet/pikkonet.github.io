@@ -584,3 +584,76 @@ header:before {
 	  display: none;
 	}
 }
+
+
+
+/*  dictionary page  */
+
+.heading_image {
+	height: 610px;
+	position: relative;
+	background: #000;
+}
+.content_wrapper {
+	background: url(../img/confused_man.png) no-repeat left bottom;
+	height: 440px;
+	max-width: 760px;
+	position: relative;
+	margin: 0 auto;
+	width: auto;
+}
+.content_wrapper:after {
+	content: "";
+	border: 1px solid #FFF;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 86%;
+}
+.content_wrapper h3 {
+	font-size: 40px;
+	color: #FFF;
+	padding-top: 250px;
+	padding-left: 270px;
+	margin: 0;
+}
+.content_wrapper h3 span {
+	display: block;
+	color: #D9CC3C;
+}
+.heading_image p {
+	max-width: 760px;
+	position: relative;
+	margin: 40px auto 0;
+	width: auto;
+	color: #FFF;
+	text-align: center;
+	font-size: 20px;
+	padding-left: 90px;
+}
+.dictionary article {
+	background: #9A9A9A;
+}
+article .data {
+	width: auto;
+	margin: 0 auto;
+	max-width: 960px;
+	padding-right: 50px;
+}
+article .data h5 {
+	margin: 0;
+	color: #D9CC3C;
+	font-size: 25px;
+	line-height: 50px;
+	padding-top: 20px;
+}
+article .data p {
+	color: #000;
+	line-height: 24px;
+}
+
+
+
+
+
+
