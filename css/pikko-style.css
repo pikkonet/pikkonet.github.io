@@ -148,6 +148,7 @@ div.right_div {
 	width: 69%;
 	display: inline-block;
 	vertical-align: top;
+	padding: 0 51px;
 }
 div.left_div {
 	display: inline-block;
