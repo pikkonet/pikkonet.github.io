@@ -653,6 +653,9 @@ article .data {
 	height: 60px;
 	overflow: hidden;
 }
+article .data.active {
+	overflow: visible;
+}
 article .data:after {
 	content: "";
 	display: block;
@@ -665,7 +668,7 @@ article .data:after {
 article .data.active:after {
 	border: 10px solid rgba(0, 0, 0, 0);
 	border-top: 22px solid #000;
-	right: -10px;
+	right: -11px;
 }
 article .data h5 {
 	margin: 0;
