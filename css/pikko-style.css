@@ -531,7 +531,7 @@ footer div.powerd_by p {
 	line-height: 35px;
 	height: 35px;
 	vertical-align: middle;
-	width: 44%;
+	width: 100%;
 	margin: 0 auto;
 }
 footer ul.s-12.l-6 {
@@ -551,6 +551,9 @@ footer ul.s-12.l-6:after {
 }
 footer ul.s-12.l-6.footer_bar .pos_3 a {
 	color: #2db4a2;
+}
+footer ul.s-12.l-6.footer_bar a {
+	color: #fff;
 }
 /*END FOOTER*/
 
