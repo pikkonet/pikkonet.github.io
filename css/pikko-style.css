@@ -681,7 +681,7 @@ article * {
 }
 
 .owl-theme .owl-controls {
-	display: none;
+	display: none !important;
 }
 
 
