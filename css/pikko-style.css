@@ -49,6 +49,19 @@ textarea,
 #fourth-block {
 	direction: ltr;
 }
+footer ul.s-12.l-6.footer_bar {
+	width: 780px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	float: none;
+}
+i.fa.fa-circle {
+	color: #2DB4A2;
+	font-size: 10px;
+	padding: 0 13px;
+}
+
+
 @media screen and (max-width: 800px) {
   .right {
   float:none;
@@ -499,7 +512,7 @@ input#mc-embedded-subscribe:focus {
 /*FOOTER*/
 footer {
 	background:#252525;
-	padding:3.5em 0;
+	padding:1.5em 0;
 	position: relative;
 }
 footer .line .s-12.l-6 p {
@@ -517,7 +530,7 @@ footer div.powerd_by {
 	float: none;
 	clear: both;
 	width: auto;
-	text-align: left;
+	text-align: center;
 }
 footer div.powerd_by p {
 	color: #FFF;
@@ -533,13 +546,13 @@ footer ul.s-12.l-6 {
 footer ul.s-12.l-6 li {
 	list-style: none;
 	color: #FFF;
-	font-size: 15px;
-	line-height: 26px;
+	font-size: 14px;
+	line-height: 17px;
 }
 footer ul.s-12.l-6:after {
 	content: "";
 	height: 0;
-	width: 140%;
+	width: 108%;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 	display: block;
 	position: absolute;
