@@ -664,7 +664,8 @@ article .data:after {
 }
 article .data.active:after {
 	border: 10px solid rgba(0, 0, 0, 0);
-	border-right: 22px solid #000;
+	border-top: 22px solid #000;
+	right: -10px;
 }
 article .data h5 {
 	margin: 0;
