@@ -195,17 +195,17 @@
     
         $( document ).ready(function() {
             $('article .data').each(function () {
+                
+                var min_height = $(this).height();                            //init
+                var max_height = $(this).height('auto').height();             //real height
+                $(this).height(min_height); 
 
-                var answer = $(this).children('p');
-                var answer_height = answer.height('auto').height();
-                answer.height('0');
-
-                $(this).click(function () {
+                $(this).click(function () {                     //on click
                     $(this).toggleClass('active');
-                    if ( answer.height() == 0 ) {
-                        answer.height(answer_height);
+                    if ( $(this).height() == min_height ) {
+                        $(this).height( max_height );
                     } else {
-                        answer.height('0');
+                        $(this).height( min_height );
                     }
                 });
             })

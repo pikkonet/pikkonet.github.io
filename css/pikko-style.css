@@ -647,16 +647,22 @@ article .data {
 	margin: 0 auto;
 	max-width: 960px;
 	position: relative;
-	padding: 10px 50px 10px 0;
+	padding: 0px 50px 0px 0;
 	border-right: 2px solid #000;
 	cursor: pointer;
+	height: 60px;
+	overflow: hidden;
 }
 article .data:after {
 	content: "";
 	display: block;
 	position: absolute;
-	top: 28px;
+	top: 18px;
 	right: 0;
+	border: 10px solid rgba(0, 0, 0, 0);
+	border-right: 22px solid #000;
+}
+article .data.active:after {
 	border: 10px solid rgba(0, 0, 0, 0);
 	border-right: 22px solid #000;
 }
@@ -669,8 +675,6 @@ article .data h5 {
 article .data p {
 	color: #000;
 	line-height: 24px;
-	height: 0;
-	overflow: hidden;
 	opacity: 0;
 }
 article .data.active p {
