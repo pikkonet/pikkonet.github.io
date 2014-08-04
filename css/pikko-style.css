@@ -509,7 +509,7 @@ input#mc-embedded-subscribe:focus {
 /*FOOTER*/
 footer {
 	background:#252525;
-	padding: 0.8em 0 1.5em;
+	padding: 0.8em 0 0.7em;
 	position: relative;
 }
 footer .line .s-12.l-6 p {
