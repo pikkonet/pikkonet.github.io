@@ -14,6 +14,8 @@ textarea,
 	position: fixed;
 	width: 100%;
 	z-index: -1;
+	margin: 0;
+	padding: 0;
 }
 .body_bg img {
 	width: 100%;
@@ -525,6 +527,7 @@ footer div.powerd_by {
 	clear: both;
 	width: auto;
 	text-align: center;
+	height: 62px;
 }
 footer div.powerd_by p {
 	color: #FFF;
