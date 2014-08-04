@@ -344,6 +344,7 @@ footer ul.s-12.l-6 li {
   font-size: 14px;
   line-height: 17px;
   display: inline-block;
+  cursor: pointer;
 }
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
