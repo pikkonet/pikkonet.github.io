@@ -50,7 +50,7 @@ textarea,
 	direction: ltr;
 }
 footer ul.s-12.l-6.footer_bar {
-	width: 780px;
+	width: 685px;
 	padding-bottom: 20px;
 	margin: 0 auto;
 	float: none;
@@ -560,7 +560,7 @@ footer ul.s-12.l-6:after {
 	display: block;
 	position: absolute;
 	bottom: 0;
-	left: 16px;
+	left: -18px;
 }
 /*END FOOTER*/
 
