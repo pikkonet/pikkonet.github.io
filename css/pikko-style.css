@@ -49,12 +49,6 @@ textarea,
 #fourth-block {
 	direction: ltr;
 }
-footer ul.s-12.l-6.footer_bar {
-	width: 685px;
-	padding-bottom: 20px;
-	margin: 0 auto;
-	float: none;
-}
 i.fa.fa-circle {
 	color: #2DB4A2;
 	font-size: 10px;
@@ -544,13 +538,6 @@ footer ul.s-12.l-6 {
 	padding: 0;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-}
-footer ul.s-12.l-6 li {
-	list-style: none;
-	color: #FFF;
-	font-size: 14px;
-	line-height: 17px;
-	display: inline-block;
 }
 footer ul.s-12.l-6:after {
 	content: "";

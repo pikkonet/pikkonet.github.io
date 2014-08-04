@@ -332,6 +332,19 @@ div#carousel:after {
   height: 86px;
   width: 50%;
 }
+footer ul.s-12.l-6.footer_bar {
+  width: 61%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  float: none;
+}
+footer ul.s-12.l-6 li {
+  list-style: none;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 17px;
+  display: inline-block;
+}
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
@@ -493,6 +506,12 @@ div#carousel:after {
 }
 .top-nav li a:hover, .aside-nav li a:hover {
   background: #252525;
+}
+footer ul.s-12.l-6.footer_bar {
+  width: 100%;
+}
+footer ul.s-12.l-6 li {
+  display: block;
 }
 .center {
   float:none;
