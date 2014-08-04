@@ -324,6 +324,14 @@ div#carousel:after {
   background: url(../img/t1.png);
   bottom: -86px;
 }
+.top-nav ul {
+  border-top: 1px solid #30b4a6;
+}
+.top_bar {
+  margin: 28px 210px 0 0;
+  height: 86px;
+  width: 50%;
+}
 /* ------ end our code ------ */
 @media screen and (max-width:800px) {
 .size-960 {max-width:800px;}
@@ -471,6 +479,14 @@ div#carousel:after {
 #social-block .line div a i {
   font-size: 38px;
   line-height: 63px;
+}
+.top-nav ul {
+  border-top: none;
+}
+.top_bar {
+  margin: 0;
+  height: auto;
+  width: 100%;
 }
 .top_bar ul.right li a {
   padding: 0px 10px;

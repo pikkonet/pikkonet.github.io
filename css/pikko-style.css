@@ -63,14 +63,6 @@ textarea,
 	border-bottom: 1px solid #ccc;
 	background: #252525;
 }
-.top_bar {
-	margin: 28px 210px 0 0;
-	height: 86px;
-	width: 50%;
-}
-.top-nav ul {
-	border-top: 1px solid #30b4a6;
-}
 .top-nav li {
 	height: 100%;
 	position: relative;
