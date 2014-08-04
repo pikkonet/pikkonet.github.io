@@ -549,6 +549,9 @@ footer ul.s-12.l-6:after {
 	bottom: 0;
 	left: -18px;
 }
+footer ul.s-12.l-6.footer_bar .pos_3 a {
+	color: #2db4a2;
+}
 /*END FOOTER*/
 
 /* ------[colors]------ */
