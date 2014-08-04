@@ -31,6 +31,8 @@ textarea,
 }
 #carousel img {
 	width: 100%;
+	min-width: 420px;
+	min-height: 210px;
 }
 .owl-theme .owl-controls .owl-buttons div {
 	min-width: 50px;
