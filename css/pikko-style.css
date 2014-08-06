@@ -359,11 +359,13 @@ div.text_process p {
     transition: background 0.2s;
 }
 #social-block h3 {
-	font-size: 30px;
+	font-size: 36px;
 	line-height: 50px;
 	text-align: center;
 	padding: 40px 0 50px;
 	margin: 0;
+	font-weight: 900;
+	text-shadow: 1px 1px 1px #FFF;
 }
 #mc_embed_signup .mc-field-group input:focus {
 	background: #fff;
