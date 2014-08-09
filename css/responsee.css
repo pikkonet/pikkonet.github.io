@@ -511,6 +511,9 @@ div#carousel:after {
 footer ul.s-12.l-6.footer_bar {
   width: 100%;
 }
+footer .line {
+  width: 90%;
+}
 footer ul.s-12.l-6 li {
   display: block;
 }
