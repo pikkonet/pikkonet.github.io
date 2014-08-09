@@ -297,6 +297,7 @@ div.wrap_image img {
 div.text_process p {
 	width: 80%;
 	margin: 0 auto;
+	padding-top: 24px
 }
 #second-block .where_to_start .margin {
 	width: 90%;
