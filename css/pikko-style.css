@@ -532,8 +532,9 @@ form#form6 ul li input {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
-	margin: 0 10px;
+	margin: 0 5px;
 	text-indent: 10px;
+	width: 305px;
 }
 form#form6 ul li input::-webkit-input-placeholder { /* WebKit browsers */
     color:    #252525;
