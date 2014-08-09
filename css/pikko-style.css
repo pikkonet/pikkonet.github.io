@@ -532,8 +532,9 @@ form#form6 ul li input {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
-	margin: 0 10px;
+	margin: 0 5px;
 	text-indent: 10px;
+	width: 305px;
 }
 form#form6 ul li input::-webkit-input-placeholder { /* WebKit browsers */
     color:    #252525;
@@ -578,6 +579,22 @@ form#form6 ul li input#saveForm {
 	font-weight: normal;
 	font-size: 30px;
 	color: #FFF;
+}
+.fa-angle-left:before {
+	content: "\f104";
+	font-size: 27px;
+	border: 1px solid #FFF;
+	width: 30px;
+	display: inline-block;
+	height: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 60%;
+	-moz-border-radius: 60%;
+	-webkit-border-radius: 60%;
+	line-height: 27px;
+	margin-right: 15px;
 }
 /* end wufoo form */
 
