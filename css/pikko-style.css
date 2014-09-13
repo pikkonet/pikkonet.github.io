@@ -733,6 +733,8 @@ header:before {
 	padding-top: 250px;
 	padding-left: 270px;
 	margin: 0;
+	position: relative;
+	z-index: 1;
 }
 .content_wrapper h3 span {
 	display: block;
